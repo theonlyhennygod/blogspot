@@ -1,4 +1,7 @@
 import './App.css';
+import ArticleListPage from './pages/ArticleList';
+import ArticlePage from './pages/ArticlePage';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -6,7 +9,11 @@ function App() {
 
       <h1>My Blog Spot</h1>
       <div id='page__body'>
-        Welcome to my blog!
+        <h1>Welcome to my blog!</h1>
+        <HomePage />
+        <AboutPage />
+        <ArticleListPage />
+        <ArticlePage />
       </div>
     </div>
   );
